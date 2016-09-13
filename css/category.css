@@ -1,0 +1,148 @@
+/*/////////////////////////////////////*/
+/*全域*/
+/*/////////////////////////////////////*/
+
+
+#LeftContent{
+width: 20%;
+float: left;
+}
+
+#LeftContent{
+  list-style-type: none;
+   list-style-image:none;
+   text-decoration: none;
+margin-top: 20px;
+}
+
+#LeftContent>li{
+text-decoration: none;
+list-style-image:none;
+line-height: 24px;
+color: black;
+}
+
+
+
+#LeftContent ul li{
+
+line-height: 24px;
+}
+
+
+
+#LeftContent a{
+  text-decoration: none;
+   color: #736f6f;
+}
+
+#RightContent{
+width: 80%;
+float: left;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#RightContent>ul>li{
+  width: 30.666%;
+   height:auto;
+   display:block;
+   position:relative;
+   margin-right: 1%;
+   margin-left: 1%;
+   float:left;
+   overflow:hidden;
+   margin-bottom:40px;
+
+
+}
+
+
+
+.list_pic>img{
+  max-width: 100%;
+}
+
+.list_info{
+  font-size: 10px;
+  text-align: center;
+}
+.list_info>a{
+  text-decoration: none;
+  color:black;
+}
+.price{
+  margin-left: 10px;
+}
+
+/*pegination*/
+
+.product_pegination{
+
+  text-align: center;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.active {
+    background-color: #b6d5ae;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #ddd;}
+
+
+
+/*pegination---end*/
+
+
+
+/*/////////////////////////////////////*/
+/*手機轉置*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:481px){
+
+
+
+}
+
+
+
+
+
+/*/////////////////////////////////////*/
+/*平板*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:768px){
+
+
+
+}
+
+
+
+/*/////////////////////////////////////*/
+/*pc*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:981px){
+
+
+
+
+
+
+
+
+}

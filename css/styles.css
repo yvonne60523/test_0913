@@ -1,0 +1,507 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@charset "UTF-8";
+
+/*/////////////////////////////////////*/
+/*全域*/
+/*/////////////////////////////////////*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-size: 13px;
+  margin: 0px;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+#Header{
+  width: 100%;
+
+}
+
+#Header>.Container{
+  width: 100%;
+  overflow: hidden;
+}
+
+.Container{
+  margin: auto;
+  width:90%;
+  overflow: hidden;
+}
+
+#Banner{
+
+width: 100%;
+height:567px;
+/*background-image: url('../images/bg.jpg');*/
+background-repeat:no-repeat;
+background-position: center;
+
+
+}
+
+#Banner>img{
+
+}
+.Box{
+  background-color: #7aee84;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.Box>img{
+  width: 100%;
+  vertical-align: bottom;
+  height: auto;
+}
+
+
+
+#PrimaryNavigation{
+  width: 100%;
+  background-color: aqua;
+  float: left;
+  clear: both;
+  display: none;
+}
+#PrimaryNavigation>ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+#PrimaryNavigation>ul>li{
+  width: 100%;
+  height: 50px;
+  background-color: #c1bebe;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 50px;
+
+}
+#PrimaryNavigation>ul>li>a{
+  text-decoration: none;
+  color:#fff;
+}
+#PrimaryNavigation li li {
+	height: 40px;
+	font-size: 18px;
+	font-family: "微軟正黑體";
+	background-color: #FC0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F90;
+	line-height: 40px;
+	text-align: center;
+	position: relative;
+}
+
+
+
+
+
+#Footer{
+
+  width: 100%;
+  background-color: #dbdddd;
+  overflow: hidden;
+}
+
+#Footer>.Container>ul{
+  list-style-type: none;
+  padding: 0px;
+}
+#Footer>.Container>ul>li{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+#Footer>.Container>ul>li>a{
+  text-decoration: none;
+  color: #736f6f;
+}
+
+#Follow{
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #736f6f;
+
+}
+#Follow>img{
+
+  vertical-align: baseline;
+}
+
+#FollowIcon{
+  margin: auto;
+  text-align: center;
+}
+#Email{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #736f6f;
+
+
+}
+#SearchContent input[type="text"]{
+display: none;
+}
+
+#Copyright{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #736f6f;
+}
+
+
+#Header>.Container{
+
+  width: 100%;
+  overflow: hidden;
+}
+.Container{
+  width: 90%;
+
+  margin: auto;
+}
+
+#MenuIcon{
+  width:15.6%;
+  height: 100px;
+  background-image: url('../images/menuicon.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+
+/*讓文字隱藏  但搜尋引擎蒐的到*/
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+#Logo{
+  width: 32%;
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  min-width: 150px;
+}
+
+#Logo>a>img{
+  width: 100%;
+}
+
+#MemberContent{
+  width: 30%;
+  height: 30px;
+  margin-top: 40px;
+  float: right;
+  margin-right: 2%;
+}
+#MemberContent>div{
+  float: left;
+  width: 33.3%;
+  height: 30px;
+  /*min-width: 50px;*/
+}
+
+#MemberContent i{
+   color: #c1bebe;
+  font-size: 25px;
+}
+
+
+/*下列註解為如用切圖的方式放ICON*/
+#MemberIcon{
+   /*background-image: url('../images/icon_member.jpg');*/
+   /*background-repeat: no-repeat;
+   background-position: center center;*/
+
+}
+#CartIcon{
+  /*background-image: url('../images/icon_cart.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;*/
+}
+#Search{
+  /*background-image: url('../images/icon_search.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;*/
+}
+#SearchContent{
+  position: relative;
+
+}
+#SearchBtn{
+  color: #c1bebe;
+  position: absolute;
+  left:180px;
+  top:0px;
+  width: 25px;
+  height:25px;
+  background:none;
+  border: none;
+
+}
+
+
+
+
+
+/*/////////////////////////////////////*/
+/*手機轉置*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:481px){
+  body{
+
+  }
+  .Box{
+    background-color: #7aee84;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  .Box>img{
+    width: 100%;
+    vertical-align: bottom;
+    height: auto;
+  }
+  #PrimaryNavigation li li {
+  	height: 40px;
+  	width: 100%;
+  	background-color: #FC0;
+  	border-top-width: 1px;
+  	border-top-style: solid;
+  	border-top-color: #F90;
+  	font-size: 18px;
+  	font-family: "微軟正黑體";
+  	text-align: center;
+  	line-height: 40px;
+  	position: relative;
+  	left: 0px;
+  }
+
+}
+
+
+/*/////////////////////////////////////*/
+/*平板*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:768px){
+  body{
+
+  }
+  .Box{
+    background-color: #7aee84;
+    width: 32%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2%;
+  }
+  .Box>img{
+    width: 100%;
+    vertical-align: bottom;
+    height: auto;
+  }
+  #MenuIcon{
+    display: none;
+  }
+
+  .DB{
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  #Logo{
+    margin-left: 39%;
+    width: 22%;
+     max-width: 198px;
+    margin-top: 69px;
+    }
+    #Logo>img{
+      width: 100%;
+    }
+  #MemberContent{
+        width: 350px;
+        height: 40px;
+      }
+  #MemberContent>#MemberIcon{
+        width: 40px;
+        height: 40px;
+      }
+  #MemberContent>#CartIcon{
+            width: 40px;
+            height: 40px;
+          }
+#MemberContent>#Search{
+          display: none;
+          }
+
+#MemberContent>#SearchBtn{
+
+}
+
+#SearchContent{
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 20px;
+  float: left;
+
+}
+
+
+
+  #PrimaryNavigation{
+    width: 90%;
+    float: none;
+    margin: auto;
+    display: block;
+
+  }
+  #PrimaryNavigation>ul>li{
+    width: 14%;
+    border:none;
+    background-color: #fff;
+    float: left;
+
+
+      }
+  #PrimaryNavigation>ul>li>a{
+        text-decoration: none;
+        color:#c1bebe;
+      }
+      .Box.ml0px{
+        margin-left: 0px
+      }
+      #Footer>.Container>ul>li{
+        display: inline-block;
+
+
+
+      }
+      /*首頁nav下面的線*/
+      #Header>.Container{
+        border-bottom: 1px solid #b6d5ae;
+        margin-bottom: 10px;
+      }
+      #Footer>.Container>ul{
+        display: inline;
+        width: 50%;
+      }
+
+      #Footer>.Container>ul>li{
+        width: 70px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+
+      }
+      #Follow{
+        width: 50%;
+        float: right;
+        text-align: right;
+      }
+
+      #Email{
+        clear: both;
+        text-align: left;
+        margin-left: 10px;
+      }
+      #Copyright{
+        clear: both;
+        text-align: left;
+        margin-left: 10px;
+      }
+
+      #MemberContent i{
+        font-size: 20px;
+      }
+      #MemberContent{
+
+
+      }
+      #SearchContent input[type="text"]{
+        display: block;
+        width: 200px;
+        height: 25px;
+        padding-left: 5px;
+        border-radius: 3px;
+      }
+
+
+}
+
+
+
+
+
+/*/////////////////////////////////////*/
+/*pc*/
+/*/////////////////////////////////////*/
+@media screen and (min-width:981px){
+  body{
+
+  }
+.Container{
+  max-width: 1170px;
+
+}
+.Box{
+  background-color: #7aee84;
+  width: 32%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+}
+.Box>img{
+  width: 100%;
+  vertical-align: bottom;
+  height: auto;
+}
+.Box.ml0px{
+  margin-left: 0px
+}
+#PrimaryNavigation>ul>li>a:hover{
+  color: #96b08f;
+}
+#MemberContent{
+margin-top: 40px;
+
+}
+
+}

@@ -1,0 +1,120 @@
+#ProductContent{
+  width: 80%;
+  float: left;
+  margin-top: 20px;
+}
+#Product_Pic{
+  width: 40%;
+  float: left;
+}
+#Product_List{
+  width: 60%;
+  float: left;
+}
+#Product_Pic img{
+  max-width: 100%;
+
+}
+
+/*以下為div product_list css*/
+.price{
+  font-size: 14px;
+  font-weight: bold;
+  color:black;
+}
+.cart{
+  width: 80%;
+  height: 40px;
+  background: black;
+  line-height:30px;
+  margin-top: 20px;
+  color:#fff;
+  font-size: 18px;
+  margin-left: 20px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+.cart:hover{
+  background: #333333;
+  border:none;
+  color:#fff;
+}
+#ProductTable{
+  width: 80%;
+  text-align: center;
+}
+#ProductTable input[type="text"]{
+  height: 26px;
+  width: 50px;
+  line-height: 30px;
+  float: left;
+  text-align: center;
+}
+#ProductTable td{
+  height: 40px;
+  line-height: 40px;
+}
+.quantity-button{
+  height:28px;
+  width:20px;
+  border: solid 1px rgb(175, 171, 166);
+  text-align: center;
+  line-height:30px;
+  float: left;
+  cursor: pointer;
+}
+.quantity-button:hover{
+  background: #676565;
+  color:#fff;
+}
+.quantity input[type="text"]{
+  width: 30px;
+
+  text-align: center;
+}
+.edit-button{
+  width: 150px;
+  float: right;
+  margin-right: 20px;
+}
+#Product_hr{
+text-align: center;
+border-bottom: 1px solid rgb(175, 171, 166);
+  clear: both;
+  font-size: 14px;
+}
+#Product_Info{
+
+}
+
+#PageTop{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: fixed;
+  right:5%;
+  bottom:5%;
+  border-radius:50%;
+display: none;
+}
+#PageTop>a{
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0)
+}
