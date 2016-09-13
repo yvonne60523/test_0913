@@ -67,7 +67,7 @@ $('.bxslider').bxSlider({
                               </ol>
                         </li>
                         <li><a class="DB" href="#"><span class="">方巾</span></a></li>
-                        <li><a class="DB" href="#"><span class="">其他</span></a></li>
+                        <li><a class="DB" href="#"><span class="">測試</span></a></li>
                     </ul>
                 </nav>
         </header>
